@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || window.location.origin;
+const API_BASE_URL ="https://genai-research-assistant.onrender.com";
 function App() {
   const [document, setDocument] = useState(null);
   const [summary, setSummary] = useState('');
