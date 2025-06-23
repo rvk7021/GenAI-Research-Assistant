@@ -1,0 +1,46 @@
+# Node dependencies
+frontend/node_modules/
+
+# React build output
+frontend/build/
+
+# Python virtual environments
+venv/
+.env
+.env.*
+
+# Python cache and compiled files
+**/__pycache__/
+**/*.py[cod]
+
+# FastAPI uploads directory (temporary files)
+backend/uploads/
+
+# Logs
+*.log
+
+# macOS files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# IDE directories
+.idea/
+
+# System files
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+
+# pytest cache
+.pytest_cache/
+
+# SQLite database files
+*.sqlite3
+
+# Misc
+*.swp
+```
